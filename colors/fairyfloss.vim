@@ -5,11 +5,11 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "fairyfloss"
+let g:colors_name = 'fairyfloss'
 
 "hi ColorColumn
 "hi Conceal
-hi Cursor guifg=#5a5475 guibg=#f8f8f0 gui=NONE
+"hi Cursor
 hi CursorColumn guifg=NONE guibg=#c5a3ff gui=NONE
 hi CursorLine guifg=NONE guibg=#c5a3ff gui=NONE
 hi CursorLineNr guifg=#ae81ff guibg=NONE gui=bold
@@ -23,7 +23,6 @@ hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
 "hi FoldColumn
 hi Folded guifg=#5a5475 guibg=#c5a3ff gui=NONE
 hi IncSearch guifg=#5a5475 guibg=#ffea00 gui=NONE
-"hi Italic
 hi LineNr guifg=#ae81ff guibg=NONE gui=NONE
 hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE
 "hi ModeMsg
@@ -36,7 +35,7 @@ hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE
 "hi PmenuThumb
 hi Question guifg=#c2ffdf guibg=bg gui=NONE
 hi Search guifg=#5a5475 guibg=#ffea00 gui=NONE
-hi SignColumn guifg=#ea81ff guibg=bg
+"hi SignColumn
 hi SpecialKey guifg=#3b3a32 guibg=#c5a3ff gui=NONE
 "hi SpellBad
 "hi SpellCap
