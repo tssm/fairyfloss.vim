@@ -14,10 +14,10 @@ hi CursorColumn guifg=NONE guibg=#c5a3ff gui=NONE
 hi CursorLine guifg=NONE guibg=#c5a3ff gui=NONE
 hi CursorLineNr guifg=#ae81ff guibg=NONE gui=bold
 hi Directory guifg=#c5a3ff guibg=NONE gui=NONE
-"hi DiffAdd
-"hi DiffChange
-"hi DiffDelete
-"hi DiffText
+hi DiffAdd guifg=#5a5475 guibg=#c2ffdf gui=NONE
+hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE
+hi DiffDelete guifg=#f92672 guibg=bg gui=NONE
+hi DiffText guifg=#f8f8f0 guibg=#f92672 gui=NONE
 hi EndOfBuffer guifg=#5a5475 guibg=bg gui=NONE
 hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
 "hi FoldColumn
