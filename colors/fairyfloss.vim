@@ -41,8 +41,8 @@ hi SpellBad guifg=#f8f8f0 guibg=#f92672 gui=NONE
 "hi SpellCap
 "hi SpellLocal
 "hi SpellRare
-hi StatusLine guifg=fg guibg=#ae81ff gui=NONE
-hi StatusLineNC guifg=fg guibg=#ae81ff gui=NONE
+hi StatusLine guifg=#5a5475 guibg=#ae81ff gui=NONE
+hi StatusLineNC guifg=#5a5475 guibg=#ae81ff gui=NONE
 hi TabLine guifg=fg guibg=#ae81ff gui=NONE
 hi TabLineFill guifg=fg guibg=#ae81ff gui=NONE
 "hi TabLineSel
