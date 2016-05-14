@@ -53,7 +53,7 @@ hi Title guifg=fg guibg=NONE gui=bold
 hi VertSplit guifg=#ae81ff guibg=#ae81ff gui=NONE
 hi Visual guifg=NONE guibg=#49483e gui=NONE
 hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
-"hi WildMenu
+hi WildMenu guifg=#5a5475 guibg=#c2ffdf gui=bold
 
 hi Comment guifg=#e6c000 guibg=NONE gui=NONE
 
