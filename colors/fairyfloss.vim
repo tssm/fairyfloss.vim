@@ -22,7 +22,7 @@ hi EndOfBuffer guifg=#5a5475 guibg=bg gui=NONE
 hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
 "hi FoldColumn
 hi Folded guifg=#5a5475 guibg=#c5a3ff gui=NONE
-hi IncSearch guifg=#5a5475 guibg=#ffea00 gui=NONE
+hi IncSearch guifg=#5a5475 guibg=#c2ffdf gui=NONE
 hi LineNr guifg=#ae81ff guibg=NONE gui=NONE
 hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE
 "hi ModeMsg
@@ -34,7 +34,7 @@ hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE
 "hi PmenuSbar
 "hi PmenuThumb
 hi Question guifg=#c2ffdf guibg=bg gui=NONE
-hi Search guifg=#5a5475 guibg=#ffea00 gui=NONE
+hi Search guifg=#5a5475 guibg=#c5a3ff gui=NONE
 "hi SignColumn
 hi SpecialKey guifg=#3b3a32 guibg=#c5a3ff gui=NONE
 "hi SpellBad
