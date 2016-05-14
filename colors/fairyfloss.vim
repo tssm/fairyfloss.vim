@@ -29,7 +29,7 @@ hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE
 hi MoreMsg guifg=#c2ffdf guibg=bg gui=NONE
 hi NonText guifg=#3b3a32 guibg=NONE gui=NONE
 hi Normal guifg=#f8f8f2 guibg=#5a5475 gui=NONE
-hi Pmenu guifg=fg guibg=#c5a3ff gui=NONE
+hi Pmenu guifg=fg guibg=#ff857f gui=NONE
 hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE
 "hi PmenuSbar
 "hi PmenuThumb
