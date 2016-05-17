@@ -1,7 +1,7 @@
 set background=dark
 highlight clear
 
-if exists("syntax_on")
+if exists('syntax_on')
   syntax reset
 endif
 
@@ -10,9 +10,9 @@ let g:colors_name = 'fairyfloss'
 "hi ColorColumn
 "hi Conceal
 "hi Cursor
-hi CursorColumn guifg=NONE guibg=#c5a3ff gui=NONE
-hi CursorLine guifg=NONE guibg=#c5a3ff gui=NONE
-hi CursorLineNr guifg=#ae81ff guibg=NONE gui=bold
+hi CursorColumn guifg=NONE guibg=#8076aa gui=NONE
+hi CursorLine guifg=NONE guibg=#8076aa gui=NONE
+hi CursorLineNr guifg=#8076aa guibg=NONE gui=bold
 hi Directory guifg=#c5a3ff guibg=NONE gui=NONE
 hi DiffAdd guifg=#5a5475 guibg=#c2ffdf gui=NONE
 hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE
@@ -23,7 +23,7 @@ hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
 "hi FoldColumn
 hi Folded guifg=#5a5475 guibg=#c5a3ff gui=NONE
 hi IncSearch guifg=#5a5475 guibg=#c2ffdf gui=NONE
-hi LineNr guifg=#ae81ff guibg=NONE gui=NONE
+hi LineNr guifg=#8076aa guibg=NONE gui=NONE
 hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE
 "hi ModeMsg
 hi MoreMsg guifg=#c2ffdf guibg=bg gui=NONE
