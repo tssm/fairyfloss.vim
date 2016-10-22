@@ -10,90 +10,90 @@ let g:colors_name = 'fairyfloss'
 "hi ColorColumn
 "hi Conceal
 "hi Cursor
-hi CursorColumn guifg=NONE guibg=#8076aa gui=NONE
-hi CursorLine guifg=NONE guibg=#8076aa gui=NONE
-hi CursorLineNr guifg=#8076aa guibg=NONE gui=bold
-hi Directory guifg=#c5a3ff guibg=NONE gui=NONE
-hi DiffAdd guifg=#5a5475 guibg=#c2ffdf gui=NONE
-hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE
-hi DiffDelete guifg=#f92672 guibg=bg gui=NONE
-hi DiffText guifg=#f8f8f0 guibg=#f92672 gui=NONE
-hi EndOfBuffer guifg=#5a5475 guibg=bg gui=NONE
-hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
+hi CursorColumn guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
+hi CursorLine guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
+hi CursorLineNr guifg=#8076aa guibg=NONE gui=bold ctermfg=0
+hi Directory guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
+hi DiffAdd guifg=#5a5475 guibg=#c2ffdf gui=NONE ctermfg=0
+hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE ctermfg=0
+hi DiffDelete guifg=#f92672 guibg=bg gui=NONE ctermfg=0
+hi DiffText guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
+hi EndOfBuffer guifg=#5a5475 guibg=bg gui=NONE ctermfg=0
+hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 "hi FoldColumn
-hi Folded guifg=#5a5475 guibg=#c5a3ff gui=NONE
-hi IncSearch guifg=#5a5475 guibg=#c2ffdf gui=NONE
-hi LineNr guifg=#8076aa guibg=NONE gui=NONE
-hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE
+hi Folded guifg=#5a5475 guibg=#c5a3ff gui=NONE ctermfg=0
+hi IncSearch guifg=#5a5475 guibg=#c2ffdf gui=NONE ctermfg=0
+hi LineNr guifg=#8076aa guibg=NONE gui=NONE ctermfg=0
+hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE ctermfg=0
 "hi ModeMsg
-hi MoreMsg guifg=#c2ffdf guibg=bg gui=NONE
-hi NonText guifg=#3b3a32 guibg=NONE gui=NONE
-hi Normal guifg=#f8f8f2 guibg=#5a5475 gui=NONE
-hi Pmenu guifg=fg guibg=#ff857f gui=NONE
-hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE
+hi MoreMsg guifg=#c2ffdf guibg=bg gui=NONE ctermfg=0
+hi NonText guifg=#3b3a32 guibg=NONE gui=NONE ctermfg=0
+hi Normal guifg=#f8f8f2 guibg=#5a5475 gui=NONE ctermfg=0
+hi Pmenu guifg=fg guibg=#ff857f gui=NONE ctermfg=0
+hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
 "hi PmenuSbar
 "hi PmenuThumb
-hi Question guifg=#c2ffdf guibg=bg gui=NONE
-hi Search guifg=#5a5475 guibg=#c5a3ff gui=NONE
+hi Question guifg=#c2ffdf guibg=bg gui=NONE ctermfg=0
+hi Search guifg=#5a5475 guibg=#c5a3ff gui=NONE ctermfg=0
 "hi SignColumn
 "hi SpecialKey
-hi SpellBad guifg=#f8f8f0 guibg=#f92672 gui=NONE
+hi SpellBad guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 "hi SpellCap
 "hi SpellLocal
 "hi SpellRare
-hi StatusLine guifg=#5a5475 guibg=#ae81ff gui=NONE
-hi StatusLineNC guifg=#5a5475 guibg=#ae81ff gui=NONE
-hi TabLine guifg=fg guibg=#ae81ff gui=NONE
-hi TabLineFill guifg=fg guibg=#ae81ff gui=NONE
+hi StatusLine guifg=#5a5475 guibg=#ae81ff gui=NONE ctermfg=0
+hi StatusLineNC guifg=#5a5475 guibg=#ae81ff gui=NONE ctermfg=0
+hi TabLine guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
+hi TabLineFill guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
 "hi TabLineSel
 "hi TermCursor
 "hi TermCursorNC
-hi Title guifg=fg guibg=NONE gui=bold
+hi Title guifg=fg guibg=NONE gui=bold ctermfg=0
 "hi TooLong
-hi VertSplit guifg=#ae81ff guibg=#ae81ff gui=NONE
-hi Visual guifg=NONE guibg=#49483e gui=NONE
-hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
-hi WildMenu guifg=#5a5475 guibg=#c2ffdf gui=bold
+hi VertSplit guifg=#ae81ff guibg=#ae81ff gui=NONE ctermfg=0
+hi Visual guifg=NONE guibg=#49483e gui=NONE ctermfg=0
+hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
+hi WildMenu guifg=#5a5475 guibg=#c2ffdf gui=bold ctermfg=0
 
-hi Comment guifg=#e6c000 guibg=NONE gui=NONE
+hi Comment guifg=#e6c000 guibg=NONE gui=NONE ctermfg=0
 
-hi Constant guifg=#c5a3ff guibg=NONE gui=NONE
-hi String guifg=#ffea00 guibg=NONE gui=NONE
-hi Character guifg=#c5a3ff guibg=NONE gui=NONE
-hi Number guifg=#c5a3ff guibg=NONE gui=NONE
-hi Boolean guifg=#c5a3ff guibg=NONE gui=NONE
-hi Float guifg=#c5a3ff guibg=NONE gui=NONE
+hi Constant guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
+hi String guifg=#ffea00 guibg=NONE gui=NONE ctermfg=0
+hi Character guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
+hi Number guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
+hi Boolean guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
+hi Float guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
 
-hi Identifier guifg=#c2ffdf guibg=NONE gui=italic
-hi Function guifg=#ff857f guibg=NONE gui=NONE
+hi Identifier guifg=#c2ffdf guibg=NONE gui=italic ctermfg=0
+hi Function guifg=#ff857f guibg=NONE gui=NONE ctermfg=0
 
-hi Statement guifg=#ffb8d1 guibg=NONE gui=NONE
-hi Conditional guifg=#ffb8d1 guibg=NONE gui=NONE
+hi Statement guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
+hi Conditional guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
 "hi Repeat
-hi Label guifg=#ffea00 guibg=NONE gui=NONE
-hi Operator guifg=#ffb8d1 guibg=NONE gui=NONE
-hi Keyword guifg=#ffb8d1 guibg=NONE gui=NONE
+hi Label guifg=#ffea00 guibg=NONE gui=NONE ctermfg=0
+hi Operator guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
+hi Keyword guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
 "hi Exception
 
-hi PreProc guifg=#ffb8d1 guibg=NONE gui=NONE
+hi PreProc guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
 "hi Include
-hi Define guifg=#ffb8d1 guibg=NONE gui=NONE
+hi Define guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
 "hi Macro
 "hi PreCondit
 
-hi Type guifg=#fff352 guibg=NONE gui=NONE
-hi StorageClass guifg=#c2ffdf guibg=NONE gui=italic
+hi Type guifg=#fff352 guibg=NONE gui=NONE ctermfg=0
+hi StorageClass guifg=#c2ffdf guibg=NONE gui=italic ctermfg=0
 "hi Structure
 "hi Typedef
 
-hi Special guifg=fg guibg=NONE gui=NONE
+hi Special guifg=fg guibg=NONE gui=NONE ctermfg=0
 "hi SpecialChar
-hi Tag guifg=#ffb8d1 guibg=NONE gui=NONE
+hi Tag guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
 "hi Delimiter
 "hi SpecialComment
 "hi Debug
 
-hi Underlined guifg=NONE guibg=NONE gui=underline
+hi Underlined guifg=NONE guibg=NONE gui=underline ctermfg=0
 
 "hi Ignore
 
