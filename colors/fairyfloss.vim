@@ -36,7 +36,7 @@ hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE
 hi Question guifg=#c2ffdf guibg=bg gui=NONE
 hi Search guifg=#5a5475 guibg=#c5a3ff gui=NONE
 "hi SignColumn
-hi SpecialKey guifg=#3b3a32 guibg=#c5a3ff gui=NONE
+"hi SpecialKey
 hi SpellBad guifg=#f8f8f0 guibg=#f92672 gui=NONE
 "hi SpellCap
 "hi SpellLocal
