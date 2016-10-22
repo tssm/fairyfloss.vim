@@ -10,6 +10,7 @@ let g:colors_name = 'fairyfloss'
 "hi ColorColumn
 "hi Conceal
 "hi Cursor
+"hi CursorIM
 hi CursorColumn guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
 hi CursorLine guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
 hi CursorLineNr guifg=#8076aa guibg=NONE gui=bold ctermfg=0
@@ -34,6 +35,7 @@ hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
 "hi PmenuSbar
 "hi PmenuThumb
 hi Question guifg=#c2ffdf guibg=bg gui=NONE ctermfg=0
+"hi QuickFixLine
 hi Search guifg=#5a5475 guibg=#c5a3ff gui=NONE ctermfg=0
 "hi SignColumn
 "hi SpecialKey
