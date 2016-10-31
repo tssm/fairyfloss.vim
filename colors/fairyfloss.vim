@@ -36,15 +36,15 @@ hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
 "hi PmenuThumb
 hi Question guifg=#c2ffdf guibg=bg gui=NONE ctermfg=0
 "hi QuickFixLine
-hi Search guifg=#5a5475 guibg=#c5a3ff gui=NONE ctermfg=0
+hi Search guifg=bg guibg=#c5a3ff gui=NONE ctermfg=0
 "hi SignColumn
 "hi SpecialKey
 hi SpellBad guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 "hi SpellCap
 "hi SpellLocal
 "hi SpellRare
-hi StatusLine guifg=#5a5475 guibg=#ae81ff gui=NONE ctermfg=0
-hi StatusLineNC guifg=#5a5475 guibg=#ae81ff gui=NONE ctermfg=0
+hi StatusLine guifg=#f8f8f2 guibg=#5b5b5b gui=NONE ctermfg=0
+hi StatusLineNC guifg=#f8f8f2 guibg=#5b5b5b gui=NONE ctermfg=0
 hi TabLine guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
 hi TabLineFill guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
 "hi TabLineSel
@@ -52,7 +52,7 @@ hi TabLineFill guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
 "hi TermCursorNC
 hi Title guifg=fg guibg=NONE gui=bold ctermfg=0
 "hi TooLong
-hi VertSplit guifg=#ae81ff guibg=#ae81ff gui=NONE ctermfg=0
+hi VertSplit guifg=#5b5b5b guibg=#5b5b5b gui=NONE ctermfg=0
 hi Visual guifg=NONE guibg=#49483e gui=NONE ctermfg=0
 hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 hi WildMenu guifg=#5a5475 guibg=#c2ffdf gui=bold ctermfg=0
