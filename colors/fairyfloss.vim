@@ -15,7 +15,7 @@ hi CursorColumn guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
 hi CursorLine guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
 hi CursorLineNr guifg=#a8a4b1 guibg=NONE gui=bold ctermfg=0 " fg is not defined on the original theme. It was taken using Digital Color Meter
 hi Directory guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
-hi DiffAdd guifg=#5a5475 guibg=#c2ffdf gui=NONE ctermfg=0
+hi DiffAdd guifg=bg guibg=#c2ffdf gui=NONE ctermfg=0
 hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE ctermfg=0
 hi DiffDelete guifg=#f92672 guibg=bg gui=NONE ctermfg=0
 hi DiffText guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
@@ -55,7 +55,7 @@ hi Title guifg=fg guibg=NONE gui=bold ctermfg=0
 hi VertSplit guifg=#5b5b5b guibg=#5b5b5b gui=NONE ctermfg=0
 hi Visual guifg=NONE guibg=#49483e gui=NONE ctermfg=0
 hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
-hi WildMenu guifg=#5a5475 guibg=#c2ffdf gui=bold ctermfg=0
+hi WildMenu guifg=bg guibg=#c2ffdf gui=bold ctermfg=0
 
 hi Comment guifg=#e6c000 guibg=NONE gui=NONE ctermfg=0
 
