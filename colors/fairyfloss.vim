@@ -19,7 +19,7 @@ hi DiffAdd guifg=#5a5475 guibg=#c2ffdf gui=NONE ctermfg=0
 hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE ctermfg=0
 hi DiffDelete guifg=#f92672 guibg=bg gui=NONE ctermfg=0
 hi DiffText guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
-hi EndOfBuffer guifg=#5a5475 guibg=bg gui=NONE ctermfg=0
+"hi EndOfBuffer guifg=bg guibg=bg gui=NONE ctermfg=0
 hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 "hi FoldColumn
 hi Folded guifg=#8076aa guibg=NONE gui=NONE ctermfg=0
@@ -28,7 +28,7 @@ hi LineNr guifg=#a8a4b1 guibg=NONE gui=NONE ctermfg=0 " fg is not defined on the
 hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE ctermfg=0
 "hi ModeMsg
 hi MoreMsg guifg=#c2ffdf guibg=bg gui=NONE ctermfg=0
-hi NonText guifg=#3b3a32 guibg=NONE gui=NONE ctermfg=0
+hi NonText guifg=#a8a4b1 guibg=NONE gui=NONE ctermfg=0 " fg is not defined on the original theme. It was taken using Digital Color Meter
 hi Normal guifg=#f8f8f2 guibg=#5a5475 gui=NONE ctermfg=0
 hi Pmenu guifg=fg guibg=#ff857f gui=NONE ctermfg=0
 hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
