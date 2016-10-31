@@ -13,7 +13,7 @@ let g:colors_name = 'fairyfloss'
 "hi CursorIM
 hi CursorColumn guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
 hi CursorLine guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
-hi CursorLineNr guifg=#8076aa guibg=NONE gui=bold ctermfg=0
+hi CursorLineNr guifg=bg guibg=#8076aa gui=bold ctermfg=0
 hi Directory guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
 hi DiffAdd guifg=#5a5475 guibg=#c2ffdf gui=NONE ctermfg=0
 hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE ctermfg=0
