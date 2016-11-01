@@ -11,9 +11,9 @@ hi ColorColumn guifg=fg guibg=#a8a4b1 gui=NONE ctermfg=0
 "hi Conceal
 "hi Cursor
 "hi CursorIM
-hi CursorColumn guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
-hi CursorLine guifg=NONE guibg=#8076aa gui=NONE ctermfg=0
-hi CursorLineNr guifg=#a8a4b1 guibg=NONE gui=bold ctermfg=0 " fg is not defined on the original theme. It was taken using Digital Color Meter
+hi CursorColumn guifg=NONE guibg=#716799 gui=NONE ctermfg=0
+hi! link CursorLine CursorColumn
+hi CursorLineNr guifg=#a8a4b1 guibg=#716799 gui=bold ctermfg=0 " fg is not defined on the original theme. It was taken using Digital Color Meter
 hi Directory guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
 hi DiffAdd guifg=bg guibg=#c2ffdf gui=NONE ctermfg=0
 hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE ctermfg=0
