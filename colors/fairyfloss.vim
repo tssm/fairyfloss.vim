@@ -43,16 +43,16 @@ hi SpellBad guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 "hi SpellCap
 "hi SpellLocal
 "hi SpellRare
-hi StatusLine guifg=fg guibg=#5b5b5b gui=NONE ctermfg=0
-hi StatusLineNC guifg=fg guibg=#5b5b5b gui=NONE ctermfg=0
-hi TabLine guifg=fg guibg=#5b5b5b gui=NONE ctermfg=0
-hi TabLineFill guifg=fg guibg=#5b5b5b gui=NONE ctermfg=0
+hi StatusLine guifg=fg guibg=#373348 gui=NONE ctermfg=0
+hi StatusLineNC guifg=fg guibg=#373348 gui=NONE ctermfg=0
+hi TabLine guifg=fg guibg=#373348 gui=NONE ctermfg=0
+hi TabLineFill guifg=fg guibg=#373348 gui=NONE ctermfg=0
 "hi TabLineSel
 "hi TermCursor
 "hi TermCursorNC
 hi Title guifg=fg guibg=NONE gui=bold ctermfg=0
 "hi TooLong
-hi VertSplit guifg=#5b5b5b guibg=#5b5b5b gui=NONE ctermfg=0
+hi VertSplit guifg=#373348 guibg=#373348 gui=NONE ctermfg=0
 hi Visual guifg=NONE guibg=#49483e gui=NONE ctermfg=0
 hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 hi WildMenu guifg=bg guibg=#c2ffdf gui=bold ctermfg=0
