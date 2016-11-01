@@ -43,8 +43,8 @@ hi SpellBad guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 "hi SpellCap
 "hi SpellLocal
 "hi SpellRare
-hi StatusLine guifg=#f8f8f2 guibg=#5b5b5b gui=NONE ctermfg=0
-hi StatusLineNC guifg=#f8f8f2 guibg=#5b5b5b gui=NONE ctermfg=0
+hi StatusLine guifg=fg guibg=#5b5b5b gui=NONE ctermfg=0
+hi StatusLineNC guifg=fg guibg=#5b5b5b gui=NONE ctermfg=0
 hi TabLine guifg=fg guibg=#5b5b5b gui=NONE ctermfg=0
 hi TabLineFill guifg=fg guibg=#5b5b5b gui=NONE ctermfg=0
 "hi TabLineSel
