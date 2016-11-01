@@ -66,7 +66,7 @@ hi Boolean guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
 hi Float guifg=#c5a3ff guibg=NONE gui=NONE ctermfg=0
 
 hi Identifier guifg=#c2ffdf guibg=NONE gui=italic ctermfg=0
-hi Function guifg=#ff857f guibg=NONE gui=NONE ctermfg=0
+hi Function guifg=#fff352 guibg=NONE gui=NONE ctermfg=0
 
 hi Statement guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
 hi Conditional guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
@@ -83,11 +83,11 @@ hi Define guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
 "hi PreCondit
 
 hi Type guifg=#fff352 guibg=NONE gui=NONE ctermfg=0
-hi StorageClass guifg=#c2ffdf guibg=NONE gui=italic ctermfg=0
-"hi Structure
+hi StorageClass guifg=#ffb8d1 guibg=NONE gui=italic ctermfg=0
+hi Structure guifg=#fff352 guibg=NONE gui=NONE ctermfg=0
 "hi Typedef
 
-hi Special guifg=fg guibg=NONE gui=NONE ctermfg=0
+hi Special guifg=#ff857f guibg=NONE gui=NONE ctermfg=0
 "hi SpecialChar
 hi Tag guifg=#ffb8d1 guibg=NONE gui=NONE ctermfg=0
 "hi Delimiter
