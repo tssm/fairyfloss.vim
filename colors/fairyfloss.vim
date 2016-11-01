@@ -7,7 +7,7 @@ endif
 
 let g:colors_name = 'fairyfloss'
 
-"hi ColorColumn
+hi ColorColumn guifg=fg guibg=#a8a4b1 gui=NONE ctermfg=0
 "hi Conceal
 "hi Cursor
 "hi CursorIM
@@ -51,7 +51,6 @@ hi TabLineFill guifg=fg guibg=#373348 gui=NONE ctermfg=0
 "hi TermCursor
 "hi TermCursorNC
 hi Title guifg=fg guibg=NONE gui=bold ctermfg=0
-"hi TooLong
 hi VertSplit guifg=#373348 guibg=#373348 gui=NONE ctermfg=0
 hi Visual guifg=NONE guibg=#49483e gui=NONE ctermfg=0
 hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
