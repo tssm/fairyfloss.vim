@@ -19,7 +19,6 @@ hi DiffAdd guifg=bg guibg=#c2ffdf gui=NONE ctermfg=0
 hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE ctermfg=0
 hi DiffDelete guifg=#f92672 guibg=bg gui=NONE ctermfg=0
 hi DiffText guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
-"hi EndOfBuffer guifg=bg guibg=bg gui=NONE ctermfg=0
 hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 "hi FoldColumn
 hi Folded guifg=#8076aa guibg=NONE gui=NONE ctermfg=0
