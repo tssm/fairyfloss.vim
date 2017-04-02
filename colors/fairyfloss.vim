@@ -37,7 +37,7 @@ hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE ctermfg=0
 hi Question guifg=#c2ffdf guibg=bg gui=NONE ctermfg=0
 "hi QuickFixLine
 hi Search guifg=bg guibg=#c5a3ff gui=NONE ctermfg=0
-"hi SignColumn
+hi SignColumn guifg=#a8a4b1 guibg=NONE gui=NONE ctermfg=0
 "hi SpecialKey
 hi SpellBad guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 "hi SpellCap
