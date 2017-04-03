@@ -42,11 +42,12 @@ hi SpellBad guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
 "hi SpellCap
 "hi SpellLocal
 "hi SpellRare
-hi StatusLine guifg=fg guibg=#373348 gui=NONE ctermfg=0
-hi StatusLineNC guifg=fg guibg=#373348 gui=NONE ctermfg=0
-hi TabLine guifg=fg guibg=#373348 gui=NONE ctermfg=0
-hi TabLineFill guifg=fg guibg=#373348 gui=NONE ctermfg=0
-"hi TabLineSel
+hi StatusLine guifg=#a8a4b1 guibg=#373348 gui=NONE ctermfg=0
+hi StatusLineNC guifg=#a8a4b1 guibg=#373348 gui=NONE ctermfg=0
+hi Substitute guifg=#f8f8f0 guibg=#f92672 gui=NONE ctermfg=0
+hi TabLine guifg=#a8a4b1 guibg=#373348 gui=NONE ctermfg=0
+hi TabLineFill guifg=#a8a4b1 guibg=#373348 gui=NONE ctermfg=0
+hi TabLineSel guifg=#a8a4b1 guibg=bg gui=NONE ctermfg=0
 "hi TermCursor
 "hi TermCursorNC
 hi Title guifg=fg guibg=NONE gui=bold ctermfg=0
