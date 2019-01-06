@@ -7,58 +7,132 @@ endif
 
 let g:colors_name = 'fairyfloss'
 
-" UI
+hi Normal guifg=#f8f8f0 guibg=#5a5475 gui=NONE
+" hi NormalNC
 
-hi ColorColumn guifg=fg guibg=#a8a4b1 gui=NONE
+" UI {{{
+
+" Text area {{{
+
 "hi Conceal
+hi ColorColumn guifg=fg guibg=#a8a4b1 gui=NONE
+hi Directory guifg=#c5a3ff guibg=NONE gui=NONE
+hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE
+"hi SpecialKey
+"hi Whitespace
+
+" }}}
+
+" Side columns {{{
+
+hi LineNr guifg=#a8a4b1 guibg=NONE gui=NONE " fg is not defined on the original theme. It was taken using Digital Color Meter
+hi link LineNr EndOfBuffer
+hi NonText guifg=#a8a4b1 guibg=NONE gui=NONE " fg is not defined on the original theme. It was taken using Digital Color Meter
+hi SignColumn guifg=#a8a4b1 guibg=NONE gui=NONE
+hi VertSplit guifg=#373348 guibg=bg gui=NONE
+
+" }}}
+
+" Command line {{{
+
+hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
+" MsgSeparator
+"hi ModeMsg
+hi MoreMsg guifg=#c2ffdf guibg=bg gui=NONE
+hi Question guifg=#c2ffdf guibg=bg gui=NONE
+hi Title guifg=fg guibg=NONE gui=bold
+hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
+
+" }}}
+
+" Completion {{{
+
+hi Pmenu guifg=fg guibg=#ff857f gui=NONE
+hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE
+"hi PmenuSbar
+"hi PmenuThumb
+
+" }}}
+
+" Cursor {{{
+
 "hi Cursor
 "hi CursorIM
 hi CursorColumn guifg=NONE guibg=#716799 gui=NONE
 hi! link CursorLine CursorColumn
 hi CursorLineNr guifg=#a8a4b1 guibg=#716799 gui=bold " fg is not defined on the original theme. It was taken using Digital Color Meter
-hi Directory guifg=#c5a3ff guibg=NONE gui=NONE
+
+" }}}
+
+" Diff {{{
+
 hi DiffAdd guifg=bg guibg=#c2ffdf gui=NONE
 hi DiffChange guifg=#f92672 guibg=#f8f8f0 gui=NONE
 hi DiffDelete guifg=#f92672 guibg=bg gui=NONE
 hi DiffText guifg=#f8f8f0 guibg=#f92672 gui=NONE
-hi ErrorMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
+
+" }}}
+
+" Folds {{{
+
 "hi FoldColumn
 hi Folded guifg=#8076aa guibg=NONE gui=NONE
+
+" }}}
+
+" Search / Substitution {{{
+
 hi IncSearch guifg=bg guibg=#c2ffdf gui=NONE
-hi LineNr guifg=#a8a4b1 guibg=NONE gui=NONE " fg is not defined on the original theme. It was taken using Digital Color Meter
-hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE
-"hi ModeMsg
-hi MoreMsg guifg=#c2ffdf guibg=bg gui=NONE
-hi NonText guifg=#a8a4b1 guibg=NONE gui=NONE " fg is not defined on the original theme. It was taken using Digital Color Meter
-hi Normal guifg=#f8f8f0 guibg=#5a5475 gui=NONE
-hi Pmenu guifg=fg guibg=#ff857f gui=NONE
-hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE
-"hi PmenuSbar
-"hi PmenuThumb
-hi Question guifg=#c2ffdf guibg=bg gui=NONE
-"hi QuickFixLine
 hi Search guifg=bg guibg=#c5a3ff gui=NONE
-hi SignColumn guifg=#a8a4b1 guibg=NONE gui=NONE
-"hi SpecialKey
+hi Substitute guifg=#f8f8f0 guibg=#f92672 gui=NONE
+"hi QuickFixLine
+
+" }}}
+
+" Selection {{{
+
+hi Visual guifg=NONE guibg=#8077A8 gui=NONE
+"hi VisualNOS
+
+" }}}
+
+" Spelling {{{
+
 hi SpellBad guifg=NONE guibg=NONE gui=undercurl
 "hi SpellCap
 "hi SpellLocal
 "hi SpellRare
+
+" }}}
+
+" Status line {{{
+
 hi StatusLine guifg=#a8a4b1 guibg=#373348 gui=NONE
 hi StatusLineNC guifg=#a8a4b1 guibg=#373348 gui=NONE
-hi Substitute guifg=#f8f8f0 guibg=#f92672 gui=NONE
+hi WildMenu guifg=bg guibg=#c2ffdf gui=bold
+
+" }}}
+
+" Tabline {{{
+
 hi TabLine guifg=#a8a4b1 guibg=#373348 gui=NONE
 hi TabLineFill guifg=#a8a4b1 guibg=#373348 gui=NONE
 hi TabLineSel guifg=#a8a4b1 guibg=bg gui=NONE
+
+" }}}
+
+" Terminal {{{
+
+"hi StatusLineTerm
+"hi StatusLineTermNC
 "hi TermCursor
 "hi TermCursorNC
-hi Title guifg=fg guibg=NONE gui=bold
-hi VertSplit guifg=#373348 guibg=bg gui=NONE
-hi Visual guifg=NONE guibg=#8077A8 gui=NONE
-hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
-hi WildMenu guifg=bg guibg=#c2ffdf gui=bold
 
-" Text
+" }}}
+
+" }}}
+
+" Text {{{
 
 hi Comment guifg=#e6c000 guibg=NONE gui=NONE
 
@@ -157,3 +231,7 @@ hi cssClassName guifg=#fff352 guibg=NONE gui=NONE
 hi cssValueLength guifg=#c5a3ff guibg=NONE gui=NONE
 hi cssCommonAttr guifg=#c2ffdf guibg=NONE gui=NONE
 hi cssBraces guifg=NONE guibg=NONE gui=NONE
+
+" }}}
+
+" vim: foldenable foldmethod=marker
