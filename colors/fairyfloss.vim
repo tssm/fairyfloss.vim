@@ -83,7 +83,7 @@ hi Folded guifg=#8076aa guibg=NONE gui=NONE
 " Search / Substitution {{{
 
 hi IncSearch guifg=bg guibg=#c2ffdf gui=NONE
-hi Search guifg=#fffffff guibg=#8076aa gui=NONE
+hi Search guifg=#ffffff guibg=#8076aa gui=NONE
 hi Substitute guifg=#f8f8f0 guibg=#f92672 gui=NONE
 "hi QuickFixLine
 
