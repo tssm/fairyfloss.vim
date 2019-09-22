@@ -123,6 +123,23 @@ hi TabLineSel guifg=#a8a4b1 guibg=bg gui=NONE
 
 " Terminal {{{
 
+let g:terminal_color_0='#5a5475' " Black
+let g:terminal_color_1='#ff857f' " Red
+let g:terminal_color_2='#8077a8' " Green
+let g:terminal_color_3='#e6c000' " Yellow
+let g:terminal_color_4='#ffb8d1' " Blue
+let g:terminal_color_5='#ae81ff' " Magenta
+let g:terminal_color_6='#c2ffdf' " Cyan
+let g:terminal_color_7='#373348' " White
+let g:terminal_color_8='#716799' " Bright black
+let g:terminal_color_9='#f92672' " Bright red
+let g:terminal_color_10='#a8757b' " Bright green
+let g:terminal_color_11='#ffea00' " Blue
+let g:terminal_color_12='#fff352' " Bright yellow
+let g:terminal_color_13='#c5a3ff' " Bright magenta
+let g:terminal_color_14='#f8f8f0' " Bright cyan
+let g:terminal_color_15='#ffffff' " Bright white
+
 "hi StatusLineTerm
 "hi StatusLineTermNC
 "hi TermCursor
