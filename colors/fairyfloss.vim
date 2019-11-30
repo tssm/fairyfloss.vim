@@ -26,7 +26,7 @@ hi MatchParen guifg=#f8f8f0 guibg=#e6c000 gui=NONE
 " Side columns {{{
 
 hi LineNr guifg=#a8a4b1 guibg=NONE gui=NONE " fg is not defined on the original theme. It was taken using Digital Color Meter
-hi link LineNr EndOfBuffer
+hi link EndOfBuffer LineNr
 hi NonText guifg=#a8a4b1 guibg=NONE gui=NONE " fg is not defined on the original theme. It was taken using Digital Color Meter
 hi SignColumn guifg=#a8a4b1 guibg=NONE gui=NONE
 hi VertSplit guifg=#373348 guibg=bg gui=NONE
