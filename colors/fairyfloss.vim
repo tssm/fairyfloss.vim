@@ -107,7 +107,7 @@ hi SpellBad guifg=NONE guibg=NONE gui=undercurl
 
 " Status line {{{
 
-hi StatusLine guifg=#a8a4b1 guibg=#373348 gui=NONE
+hi StatusLine guifg=#f8f8f0 guibg=#373348 gui=NONE
 hi StatusLineNC guifg=#a8a4b1 guibg=#373348 gui=NONE
 hi WildMenu guifg=bg guibg=#c2ffdf gui=bold
 
