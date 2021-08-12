@@ -197,58 +197,6 @@ hi Error guifg=#f8f8f0 guibg=#f92672 gui=NONE
 
 hi Todo guifg=#e6c000 guibg=NONE gui=inverse,bold
 
-hi rubyClass guifg=#ffb8d1 guibg=NONE gui=NONE
-hi rubyFunction guifg=#fff352 guibg=NONE gui=NONE
-hi rubyInterpolationDelimiter guifg=NONE guibg=NONE gui=NONE
-hi rubySymbol guifg=#c5a3ff guibg=NONE gui=NONE
-hi rubyConstant guifg=#c2ffdf guibg=NONE gui=italic
-hi rubyStringDelimiter guifg=#ffea00 guibg=NONE gui=NONE
-hi rubyBlockParameter guifg=#ff857f guibg=NONE gui=italic
-hi rubyInstanceVariable guifg=NONE guibg=NONE gui=NONE
-hi rubyInclude guifg=#ffb8d1 guibg=NONE gui=NONE
-hi rubyGlobalVariable guifg=NONE guibg=NONE gui=NONE
-hi rubyRegexp guifg=#ffea00 guibg=NONE gui=NONE
-hi rubyRegexpDelimiter guifg=#ffea00 guibg=NONE gui=NONE
-hi rubyEscape guifg=#c5a3ff guibg=NONE gui=NONE
-hi rubyControl guifg=#ffb8d1 guibg=NONE gui=NONE
-hi rubyClassVariable guifg=NONE guibg=NONE gui=NONE
-hi rubyOperator guifg=#ffb8d1 guibg=NONE gui=NONE
-hi rubyException guifg=#ffb8d1 guibg=NONE gui=NONE
-hi rubyPseudoVariable guifg=NONE guibg=NONE gui=NONE
-hi rubyRailsUserClass guifg=#c2ffdf guibg=NONE gui=italic
-hi rubyRailsARAssociationMethod guifg=#c2ffdf guibg=NONE gui=NONE
-hi rubyRailsARMethod guifg=#c2ffdf guibg=NONE gui=NONE
-hi rubyRailsRenderMethod guifg=#c2ffdf guibg=NONE gui=NONE
-hi rubyRailsMethod guifg=#c2ffdf guibg=NONE gui=NONE
-
-hi erubyDelimiter guifg=NONE guibg=NONE gui=NONE
-hi erubyComment guifg=#e6c000 guibg=NONE gui=NONE
-hi erubyRailsMethod guifg=#c2ffdf guibg=NONE gui=NONE
-
-hi htmlTag guifg=NONE guibg=NONE gui=NONE
-hi htmlEndTag guifg=NONE guibg=NONE gui=NONE
-hi htmlTagName guifg=NONE guibg=NONE gui=NONE
-hi htmlArg guifg=NONE guibg=NONE gui=NONE
-hi htmlSpecialChar guifg=#c5a3ff guibg=NONE gui=NONE
-
-hi javaScriptFunction guifg=#c2ffdf guibg=NONE gui=italic
-hi javaScriptRailsFunction guifg=#c2ffdf guibg=NONE gui=NONE
-hi javaScriptBraces guifg=NONE guibg=NONE gui=NONE
-
-hi yamlKey guifg=#ffb8d1 guibg=NONE gui=NONE
-hi yamlAnchor guifg=NONE guibg=NONE gui=NONE
-hi yamlAlias guifg=NONE guibg=NONE gui=NONE
-hi yamlDocumentHeader guifg=#ffea00 guibg=NONE gui=NONE
-
-hi cssURL guifg=#ff857f guibg=NONE gui=italic
-hi cssFunctionName guifg=#c2ffdf guibg=NONE gui=NONE
-hi cssColor guifg=#c5a3ff guibg=NONE gui=NONE
-hi cssPseudoClassId guifg=#fff352 guibg=NONE gui=NONE
-hi cssClassName guifg=#fff352 guibg=NONE gui=NONE
-hi cssValueLength guifg=#c5a3ff guibg=NONE gui=NONE
-hi cssCommonAttr guifg=#c2ffdf guibg=NONE gui=NONE
-hi cssBraces guifg=NONE guibg=NONE gui=NONE
-
 " }}}
 
 " vim: foldenable foldmethod=marker
