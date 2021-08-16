@@ -47,7 +47,7 @@ hi WarningMsg guifg=#f8f8f0 guibg=#f92672 gui=NONE
 
 " Completion {{{
 
-hi Pmenu guifg=fg guibg=#ff857f gui=NONE
+hi Pmenu guifg=fg guibg=#e6c000 gui=NONE
 hi PmenuSel guifg=fg guibg=#ae81ff gui=NONE
 "hi PmenuSbar
 "hi PmenuThumb
@@ -177,10 +177,10 @@ hi Define guifg=#ffb8d1 guibg=NONE gui=NONE
 "hi Macro
 "hi PreCondit
 
-hi Type guifg=#fff352 guibg=NONE gui=NONE
+hi Type guifg=#c2ffdf guibg=NONE gui=NONE
+hi Typedef guifg=#ffb8d1 guibg=NONE gui=NONE
 hi StorageClass guifg=#ffb8d1 guibg=NONE gui=italic
 hi Structure guifg=#fff352 guibg=NONE gui=NONE
-"hi Typedef
 
 hi Special guifg=#ff857f guibg=NONE gui=NONE
 "hi SpecialChar
